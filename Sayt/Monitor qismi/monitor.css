@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(blue, purple);
+    padding: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ; /* 2 ustun */
+    gap: 16px;
+    align-items: start; /* qator ichida yuqori hizalanish */
+}
+.container {
+    width: 300px;
+    background: linear-gradient(#1F8EF9, purple, red);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.gaming-pc {
+    height: 200px;
+    background: url(https://my-store.msi.com/cdn/shop/products/G321CU_1.png?v=1709014574) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.6rem;
+    transition: transform 0.3s ease;
+}
+.gaming-mouse {
+    height: 200px;
+    background: url(https://hp.widen.net/content/kas9jnd4hm/png/kas9jnd4hm.png?w=320&h=240&dpi=72&color=ffffff00) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-monitor {
+    height: 200px;
+    background: url(https://hp.widen.net/content/rtbfxgrfpb/png/rtbfxgrfpb.png?w=800&h=600&dpi=72&color=ffffff00) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-keyboard {
+    height: 200px;
+    background: url(https://hp.widen.net/content/qgaj5obajr/png/qgaj5obajr.png?w=800&h=600&dpi=72&color=ffffff00) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-headphone {
+    height: 200px;
+    background: url(https://images.philips.com/is/image/philipsconsumer/800e239caa53422fb337b01c012d5d96?wid=700&hei=700&$pnglarge$) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-mikrafon {
+    height: 200px;
+    background: url(https://images.philips.com/is/image/philipsconsumer/b960c71a83c6459b9cb5b01300ff31ce?wid=700&hei=700&$pnglarge$) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.container:hover {
+    transform: translateY(-5px);
+}
+.gaming-pc:hover {
+    transform: translateY(-5px);
+}
+.gaming-mouse:hover {
+    transform: translateY(-5px);
+}
+.gaming-headphone:hover {
+    transform: translateY(-5px);
+}
+.gaming-keyboard:hover {
+    transform: translateY(-5px);
+}
+.gaming-monitor:hover {
+    transform: translateY(-5px);
+}
+.gaming-mikrafon:hover {
+    transform: translateY(-5px);
+}
+h1 {
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}

@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(blue, purple);
+    padding: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ; /* 2 ustun */
+    gap: 16px;
+    align-items: start; /* qator ichida yuqori hizalanish */
+}
+.container {
+    width: 350px;
+    background: linear-gradient(#1F8EF9, purple, red);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.gaming-pc {
+    height: 350px;
+    background: url(https://pcmarket.uz/wp-content/uploads/2021/06/hx-product-mic-quadcast-1-zm-lg-copy.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.6rem;
+    transition: transform 0.3s ease;
+}
+.gaming-mouse {
+    height: 350px;
+    background: url(https://maxcom.uz/storage/product/bA5N0uLPsrEjQuTDAaWNKGqO2kpO5tfQzqpEydug.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-monitor {
+    height: 350px;
+    background: url(https://fantech.b-cdn.net/wp-content/uploads/2020/11/MCX01-3.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-keyboard {
+    height: 350px;
+    background: url(https://media-api.bgbx.eu/product-images/3625273/image-original.webp) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-headphone {
+    height: 350px;
+    background: url(https://png.pngtree.com/png-vector/20240607/ourmid/pngtree-best-mic-for-recording-and-youtube-vedio-png-image_12474125.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-mikrafon {
+    height: 350px;
+    background: url(https://cdn.shopify.com/s/files/1/0025/5934/4686/files/Maono_PD200X_podcasting_microphone_1200x.gif?v=1693272934) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.container:hover {
+    transform: translateY(-5px);
+}
+.gaming-pc:hover {
+    transform: translateY(-5px);
+}
+.gaming-mouse:hover {
+    transform: translateY(-5px);
+}
+.gaming-headphone:hover {
+    transform: translateY(-5px);
+}
+.gaming-keyboard:hover {
+    transform: translateY(-5px);
+}
+.gaming-monitor:hover {
+    transform: translateY(-5px);
+}
+.gaming-mikrafon:hover {
+    transform: translateY(-5px);
+}
+h1 {
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}

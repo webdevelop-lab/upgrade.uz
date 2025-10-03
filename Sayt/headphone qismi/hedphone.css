@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(blue, purple);
+    padding: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ; /* 2 ustun */
+    gap: 16px;
+    align-items: start; /* qator ichida yuqori hizalanish */
+}
+.container {
+    width: 350px;
+    background: linear-gradient(#1F8EF9, purple, red);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.gaming-pc {
+    height: 350px;
+    background: url(https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/7/G/7G8F4AA-1_T1726027056.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.6rem;
+    transition: transform 0.3s ease;
+}
+.gaming-mouse {
+    height: 350px;
+    background: url(https://cougargaming.com/_cgrwdr_/wwdpp/wp-content/uploads/2021/01/PHONTUM-PRO-PRIX.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-monitor {
+    height: 350px;
+    background: url(https://cdn.shopify.com/s/files/1/0460/2567/0805/files/FANTECH-HG16-SNIPER-7_1-GAMING-HEADSET-BLACK-RGB-ILLUMINATION-40MM-USB-PLUG-TYPE-2M-CABLE-LENGTH-MEDIUM-SIZE-AROUND-EAR-6-MONTHS-WARRANTY-HEADSET.png?v=1721263890) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-keyboard {
+    height: 350px;
+    background: url(https://store.sony.co.nz/dw/image/v2/ABBC_PRD/on/demandware.static/-/Sites-sony-master-catalog/default/dw2c319f24/images/WHULT900NH/WHULT900NH.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-headphone {
+    height: 350px;
+    background: url(https://www.kontrolfreek.com/cdn/shop/products/arctis_nova_7p_black_hero_w_transmitter_1024x841_5efcde3e-1ea7-4ee6-8a42-e1e7e8083aa1_940x.png?v=1669223298) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-mikrafon {
+    height: 350px;
+    background: url(https://assets.corsair.com/image/upload/c_pad,q_auto,h_1024,w_1024,f_auto/products/Gaming-Headsets/CA-9011203-EU/Gallery/VOID_RGB_ELITE_USB_CARBON_17.webp) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.container:hover {
+    transform: translateY(-5px);
+}
+.gaming-pc:hover {
+    transform: translateY(-5px);
+}
+.gaming-mouse:hover {
+    transform: translateY(-5px);
+}
+.gaming-headphone:hover {
+    transform: translateY(-5px);
+}
+.gaming-keyboard:hover {
+    transform: translateY(-5px);
+}
+.gaming-monitor:hover {
+    transform: translateY(-5px);
+}
+.gaming-mikrafon:hover {
+    transform: translateY(-5px);
+}
+h1 {
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}

@@ -1,0 +1,197 @@
+body {
+    background: linear-gradient(blue, purple);
+    padding: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ; /* 2 ustun */
+    gap: 16px;
+    align-items: start; /* qator ichida yuqori hizalanish */
+}
+.container {
+    width: 500px;
+    background: linear-gradient(#1F8EF9, purple, red);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.gaming-pc {
+    height: 200px;
+    background: url(https://cdn11.bigcommerce.com/s-fz66rhptih/product_images/uploaded_images/lighting-pc-setup.jpg) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-mouse {
+    height: 200px;
+    background: url(https://i.ebayimg.com/images/g/MQYAAOSwAlRnvwvt/s-l1200.jpg) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-monitor {
+    height: 200px;
+    background: url(https://www.wepc.com/wp-content/uploads/2023/04/Ultimate-Esports-Setup-ASUS-17.jpg) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-keyboard {
+    height: 200px;
+    background: url(https://media.wired.com/photos/65b0438c22aa647640de5c75/3:2/w_2560%2Cc_limit/Mechanical-Keyboard-Guide-Gear-GettyImages-1313504623.jpg) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-headphone {
+    height: 200px;
+    background: url(https://dlcdnwebimgs.asus.com/gain/4BB18AEF-347E-4DB6-B78C-C0FFE1F20385/w750/h470/fwebp) center/contain;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-mikrafon {
+    height: 200px;
+    background: url(https://www.maono.com/cdn/shop/articles/DM20_RGB_gaming_microphone_02_984999f6-38fb-4876-b63a-8cefc22efe54.jpg?v=1755774450) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.container:hover {
+    transform: translateY(-5px);
+}
+.gaming-pc:hover {
+    transform: translateY(-5px);
+}
+.gaming-mouse:hover {
+    transform: translateY(-5px);
+}
+.gaming-headphone:hover {
+    transform: translateY(-5px);
+}
+.gaming-keyboard:hover {
+    transform: translateY(-5px);
+}
+.gaming-monitor:hover {
+    transform: translateY(-5px);
+}
+.gaming-mikrafon:hover {
+    transform: translateY(-5px);
+}
+h1 {
+    text-align: center;
+}
+body {
+    margin: 0;
+    background: linear-gradient(#1F8EF9, purple, red)
+}
+.container-2 {
+    width: 1900px;
+    background: linear-gradient(#1F8EF9, purple, red);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer {
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+span {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-coadres {
+    display: flex;
+    gap: 80px;
+}
+
+.footer h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+.footer-adres {
+    max-width: 250px;
+}
+.footer-adres h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.footer-adres p {
+    margin: 5px 0;
+}
+.link {
+    border: 1px solid ;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F8EF9;
+    width: 1340px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+.footer-logo-2 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.btn {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 130px;
+    background: linear-gradient(#1F8EF9);
+    color: black;
+    border: 1px solid black;
+}
+.btn::placeholder {
+    color: black;
+    opacity: 1;
+}
+.ul {
+    list-style: none;
+    display: flex;  
+}
+.a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;   
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search {
+    color: red;
+}

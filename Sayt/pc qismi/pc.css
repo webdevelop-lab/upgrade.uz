@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(blue, purple);
+    padding: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ; /* 2 ustun */
+    gap: 16px;
+    align-items: start; /* qator ichida yuqori hizalanish */
+}
+.container {
+    width: 350px;
+    background: linear-gradient(#1F8EF9, purple, red);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.gaming-pc {
+    height: 350px;
+    background: url(https://s.alicdn.com/@sc04/kf/Hd42977b193954ed4a689723d0f9806dak.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.6rem;
+    transition: transform 0.3s ease;
+}
+.gaming-mouse {
+    height: 350px;
+    background: url(https://s.alicdn.com/@sc04/kf/Hc1656d7497e04f51a28cf5074a089b54T.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-monitor {
+    height: 350px;
+    background: url(https://cdn.originpc.com/img/pdp/gaming/desktops/millennium/case-680x.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-keyboard {
+    height: 350px;
+    background: url(https://pcmarket.uz/wp-content/uploads/2020/07/Office-PC-min.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-headphone {
+    height: 350px;
+    background: url(https://cougargaming.com/_cgrwdr_/wwdpp/wp-content/uploads/2018/10/08.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-mikrafon {
+    height: 350px;
+    background: url(https://www.fiercepc.co.uk/media/catalog/product/cache/8b8295763f7dd0acbbe74cee8b9ed8d0/v/i/vida_versa-tr_air-rtx_gpu-standard_3.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.container:hover {
+    transform: translateY(-5px);
+}
+.gaming-pc:hover {
+    transform: translateY(-5px);
+}
+.gaming-mouse:hover {
+    transform: translateY(-5px);
+}
+.gaming-headphone:hover {
+    transform: translateY(-5px);
+}
+.gaming-keyboard:hover {
+    transform: translateY(-5px);
+}
+.gaming-monitor:hover {
+    transform: translateY(-5px);
+}
+.gaming-mikrafon:hover {
+    transform: translateY(-5px);
+}
+h1 {
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}

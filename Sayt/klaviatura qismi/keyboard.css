@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(blue, purple);
+    padding: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ; /* 2 ustun */
+    gap: 16px;
+    align-items: start; /* qator ichida yuqori hizalanish */
+}
+.container {
+    width: 300px;
+    background: linear-gradient(#1F8EF9, purple, red);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.gaming-pc {
+    height: 200px;
+    background: url(https://monsgeek.eu/cdn/shop/files/DE-Stock-Monsgeek-FUN60-PRO-8K-SP-Black-Shine-Through-Wired-US.png?v=1751452320&width=1500) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.6rem;
+    transition: transform 0.3s ease;
+}
+.gaming-mouse {
+    height: 200px;
+    background: url(https://www.monsgeek.com/wp-content/uploads/2025/05/FUN60-Pro-Max-Phantom-Pink-Gradient-HE-Keyboard-U-6-300x300.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-monitor {
+    height: 200px;
+    background: url(https://monsgeek.eu/cdn/shop/files/MonsGeek-Fun60-Max-Blaze-Gradient-SP-RGB_e250066f-d312-4f03-a16b-1244255470ba.png?v=1751450511&width=2000) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-keyboard {
+    height: 200px;
+    background: url(https://www.techstoreltd.com/images/thumbs/0009624_cortek-alphar-rgb-backlit-mechanical-gaming-mini-keyboard-wireless-charging-black-with-red-switches-_800.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-headphone {
+    height: 200px;
+    background: url(https://www.hifiheadphones.co.uk/cdn/shop/files/GravaStar_Mercury_K1_Pro_Galaxy_Black_1_2000x.webp?v=1738935068) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.gaming-mikrafon {
+    height: 200px;
+    background: url(https://cdn.sanity.io/images/yqd1zell/production/99601e37cd2c586ae65be73390ae658a5a100015-500x500.png) center/cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.container:hover {
+    transform: translateY(-5px);
+}
+.gaming-pc:hover {
+    transform: translateY(-5px);
+}
+.gaming-mouse:hover {
+    transform: translateY(-5px);
+}
+.gaming-headphone:hover {
+    transform: translateY(-5px);
+}
+.gaming-keyboard:hover {
+    transform: translateY(-5px);
+}
+.gaming-monitor:hover {
+    transform: translateY(-5px);
+}
+.gaming-mikrafon:hover {
+    transform: translateY(-5px);
+}
+h1 {
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
